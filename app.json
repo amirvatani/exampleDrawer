@@ -1,0 +1,34 @@
+{
+  "name": "@benjeau/react-native-draw-example",
+  "displayName": "ReactNativeDraw Example",
+  "expo": {
+    "userInterfaceStyle": "automatic",
+    "name": "@benjeau/react-native-draw-example",
+    "slug": "hidemypic",
+    "description": "Example app for @benjeau/react-native-draw",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "userInterfaceStyle": "automatic",
+      "supportsTablet": true
+    },
+    "android": {
+      "userInterfaceStyle": "automatic",
+      "package": "com.amirvatani.hidemypic"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9db9fcd8-7bda-4542-adf4-6badadb46ab9"
+      }
+    },
+    "owner": "amirvatani"
+  }
+}
